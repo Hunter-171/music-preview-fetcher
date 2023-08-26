@@ -1,0 +1,965 @@
+// Response from "https://genius.com/api/search/multi?q=Swat me mabye"
+{
+    "meta": {
+        "status": 200
+    },
+    "response": {
+        "sections": [
+            {
+                "type": "top_hit",
+                "hits": [
+                    {
+                        "highlights": [
+                            {
+                                "property": "lyrics",
+                                "value": "Yeah, I know I'm fly bitch\nBut they can never swat me\nMaybe they can delay it, but they",
+                                "snippet": true,
+                                "ranges": [
+                                    {
+                                        "start": 46,
+                                        "end": 50
+                                    },
+                                    {
+                                        "start": 51,
+                                        "end": 53
+                                    },
+                                    {
+                                        "start": 54,
+                                        "end": 59
+                                    }
+                                ]
+                            }
+                        ],
+                        "index": "lyric",
+                        "type": "song",
+                        "result": {
+                            "_type": "song",
+                            "annotation_count": 0,
+                            "api_path": "/songs/61305",
+                            "artist_names": "Huey Mack",
+                            "full_title": "Just Me by Huey Mack",
+                            "header_image_thumbnail_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.300x300x1.jpg",
+                            "header_image_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.1000x1000x1.jpg",
+                            "id": 61305,
+                            "instrumental": false,
+                            "lyrics_owner_id": 39569,
+                            "lyrics_state": "complete",
+                            "lyrics_updated_at": 1583723632,
+                            "path": "/Huey-mack-just-me-lyrics",
+                            "pyongs_count": 1,
+                            "relationships_index_url": "https://genius.com/Huey-mack-just-me-sample",
+                            "release_date_components": {
+                                "year": 2012,
+                                "month": 1,
+                                "day": 1
+                            },
+                            "release_date_for_display": "January 1, 2012",
+                            "release_date_with_abbreviated_month_for_display": "Jan. 1, 2012",
+                            "song_art_image_thumbnail_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.300x300x1.jpg",
+                            "song_art_image_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.1000x1000x1.jpg",
+                            "stats": {
+                                "unreviewed_annotations": 0,
+                                "hot": false,
+                                "pageviews": 5373
+                            },
+                            "title": "Just Me",
+                            "title_with_featured": "Just Me",
+                            "updated_by_human_at": 1583723632,
+                            "url": "https://genius.com/Huey-mack-just-me-lyrics",
+                            "featured_artists": [],
+                            "primary_artist": {
+                                "_type": "artist",
+                                "api_path": "/artists/12853",
+                                "header_image_url": "https://images.genius.com/f7c7d891640a1b0899e3e945fd06882b.1000x667x1.jpg",
+                                "id": 12853,
+                                "image_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.1000x1000x1.jpg",
+                                "index_character": "h",
+                                "is_meme_verified": false,
+                                "is_verified": true,
+                                "name": "Huey Mack",
+                                "slug": "Huey-mack",
+                                "url": "https://genius.com/artists/Huey-mack",
+                                "iq": 538
+                            }
+                        }
+                    },
+                    {
+                        "highlights": [],
+                        "index": "song",
+                        "type": "song",
+                        "result": {
+                            "_type": "song",
+                            "annotation_count": 2,
+                            "api_path": "/songs/6837904",
+                            "artist_names": "James bandz",
+                            "full_title": "Swat me maybe by James bandz",
+                            "header_image_thumbnail_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.300x300x1.jpg",
+                            "header_image_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.500x500x1.jpg",
+                            "id": 6837904,
+                            "instrumental": false,
+                            "lyrics_owner_id": 13686853,
+                            "lyrics_state": "complete",
+                            "lyrics_updated_at": 1688417478,
+                            "path": "/James-bandz-swat-me-maybe-lyrics",
+                            "pyongs_count": null,
+                            "relationships_index_url": "https://genius.com/James-bandz-swat-me-maybe-sample",
+                            "release_date_components": {
+                                "year": 2021,
+                                "month": 4,
+                                "day": 27
+                            },
+                            "release_date_for_display": "April 27, 2021",
+                            "release_date_with_abbreviated_month_for_display": "Apr. 27, 2021",
+                            "song_art_image_thumbnail_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.300x300x1.jpg",
+                            "song_art_image_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.500x500x1.jpg",
+                            "stats": {
+                                "unreviewed_annotations": 2,
+                                "hot": false
+                            },
+                            "title": "Swat me maybe",
+                            "title_with_featured": "Swat me maybe",
+                            "updated_by_human_at": 1688417512,
+                            "url": "https://genius.com/James-bandz-swat-me-maybe-lyrics",
+                            "featured_artists": [],
+                            "primary_artist": {
+                                "_type": "artist",
+                                "api_path": "/artists/2744583",
+                                "header_image_url": "https://images.genius.com/ba3fd5ecbeb87dd8f25d9286c5488ce1.1000x500x1.jpg",
+                                "id": 2744583,
+                                "image_url": "https://images.genius.com/0d86ddb3b74ac9f25946a94635448ca1.1000x1000x1.png",
+                                "index_character": "j",
+                                "is_meme_verified": false,
+                                "is_verified": false,
+                                "name": "James bandz",
+                                "slug": "James-bandz",
+                                "url": "https://genius.com/artists/James-bandz"
+                            }
+                        }
+                    },
+                    {
+                        "highlights": [
+                            {
+                                "property": "lyrics",
+                                "value": "dogshit and got more plays than your discography\nI made Swat Me Maybe and got more clout than you will",
+                                "snippet": true,
+                                "ranges": [
+                                    {
+                                        "start": 56,
+                                        "end": 60
+                                    },
+                                    {
+                                        "start": 61,
+                                        "end": 63
+                                    },
+                                    {
+                                        "start": 64,
+                                        "end": 69
+                                    }
+                                ]
+                            }
+                        ],
+                        "index": "lyric",
+                        "type": "song",
+                        "result": {
+                            "_type": "song",
+                            "annotation_count": 4,
+                            "api_path": "/songs/8495294",
+                            "artist_names": "James bandz",
+                            "full_title": "That Mf Dog Off A perc by James bandz",
+                            "header_image_thumbnail_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.300x300x1.jpg",
+                            "header_image_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.500x500x1.jpg",
+                            "id": 8495294,
+                            "instrumental": false,
+                            "lyrics_owner_id": 18385951,
+                            "lyrics_state": "complete",
+                            "lyrics_updated_at": 1688417372,
+                            "path": "/James-bandz-that-mf-dog-off-a-perc-lyrics",
+                            "pyongs_count": 1,
+                            "relationships_index_url": "https://genius.com/James-bandz-that-mf-dog-off-a-perc-sample",
+                            "release_date_components": {
+                                "year": 2022,
+                                "month": 10,
+                                "day": 17
+                            },
+                            "release_date_for_display": "October 17, 2022",
+                            "release_date_with_abbreviated_month_for_display": "Oct. 17, 2022",
+                            "song_art_image_thumbnail_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.300x300x1.jpg",
+                            "song_art_image_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.500x500x1.jpg",
+                            "stats": {
+                                "unreviewed_annotations": 4,
+                                "hot": false
+                            },
+                            "title": "That Mf Dog Off A perc",
+                            "title_with_featured": "That Mf Dog Off A perc",
+                            "updated_by_human_at": 1688417372,
+                            "url": "https://genius.com/James-bandz-that-mf-dog-off-a-perc-lyrics",
+                            "featured_artists": [],
+                            "primary_artist": {
+                                "_type": "artist",
+                                "api_path": "/artists/2744583",
+                                "header_image_url": "https://images.genius.com/ba3fd5ecbeb87dd8f25d9286c5488ce1.1000x500x1.jpg",
+                                "id": 2744583,
+                                "image_url": "https://images.genius.com/0d86ddb3b74ac9f25946a94635448ca1.1000x1000x1.png",
+                                "index_character": "j",
+                                "is_meme_verified": false,
+                                "is_verified": false,
+                                "name": "James bandz",
+                                "slug": "James-bandz",
+                                "url": "https://genius.com/artists/James-bandz"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "song",
+                "hits": [
+                    {
+                        "highlights": [],
+                        "index": "song",
+                        "type": "song",
+                        "result": {
+                            "_type": "song",
+                            "annotation_count": 2,
+                            "api_path": "/songs/6837904",
+                            "artist_names": "James bandz",
+                            "full_title": "Swat me maybe by James bandz",
+                            "header_image_thumbnail_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.300x300x1.jpg",
+                            "header_image_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.500x500x1.jpg",
+                            "id": 6837904,
+                            "instrumental": false,
+                            "lyrics_owner_id": 13686853,
+                            "lyrics_state": "complete",
+                            "lyrics_updated_at": 1688417478,
+                            "path": "/James-bandz-swat-me-maybe-lyrics",
+                            "pyongs_count": null,
+                            "relationships_index_url": "https://genius.com/James-bandz-swat-me-maybe-sample",
+                            "release_date_components": {
+                                "year": 2021,
+                                "month": 4,
+                                "day": 27
+                            },
+                            "release_date_for_display": "April 27, 2021",
+                            "release_date_with_abbreviated_month_for_display": "Apr. 27, 2021",
+                            "song_art_image_thumbnail_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.300x300x1.jpg",
+                            "song_art_image_url": "https://images.genius.com/3427b4f064ef01070361504f7c9552cb.500x500x1.jpg",
+                            "stats": {
+                                "unreviewed_annotations": 2,
+                                "hot": false
+                            },
+                            "title": "Swat me maybe",
+                            "title_with_featured": "Swat me maybe",
+                            "updated_by_human_at": 1688417512,
+                            "url": "https://genius.com/James-bandz-swat-me-maybe-lyrics",
+                            "featured_artists": [],
+                            "primary_artist": {
+                                "_type": "artist",
+                                "api_path": "/artists/2744583",
+                                "header_image_url": "https://images.genius.com/ba3fd5ecbeb87dd8f25d9286c5488ce1.1000x500x1.jpg",
+                                "id": 2744583,
+                                "image_url": "https://images.genius.com/0d86ddb3b74ac9f25946a94635448ca1.1000x1000x1.png",
+                                "index_character": "j",
+                                "is_meme_verified": false,
+                                "is_verified": false,
+                                "name": "James bandz",
+                                "slug": "James-bandz",
+                                "url": "https://genius.com/artists/James-bandz"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "lyric",
+                "hits": [
+                    {
+                        "highlights": [
+                            {
+                                "property": "lyrics",
+                                "value": "Yeah, I know I'm fly bitch\nBut they can never swat me\nMaybe they can delay it, but they",
+                                "snippet": true,
+                                "ranges": [
+                                    {
+                                        "start": 46,
+                                        "end": 50
+                                    },
+                                    {
+                                        "start": 51,
+                                        "end": 53
+                                    },
+                                    {
+                                        "start": 54,
+                                        "end": 59
+                                    }
+                                ]
+                            }
+                        ],
+                        "index": "lyric",
+                        "type": "song",
+                        "result": {
+                            "_type": "song",
+                            "annotation_count": 0,
+                            "api_path": "/songs/61305",
+                            "artist_names": "Huey Mack",
+                            "full_title": "Just Me by Huey Mack",
+                            "header_image_thumbnail_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.300x300x1.jpg",
+                            "header_image_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.1000x1000x1.jpg",
+                            "id": 61305,
+                            "instrumental": false,
+                            "lyrics_owner_id": 39569,
+                            "lyrics_state": "complete",
+                            "lyrics_updated_at": 1583723632,
+                            "path": "/Huey-mack-just-me-lyrics",
+                            "pyongs_count": 1,
+                            "relationships_index_url": "https://genius.com/Huey-mack-just-me-sample",
+                            "release_date_components": {
+                                "year": 2012,
+                                "month": 1,
+                                "day": 1
+                            },
+                            "release_date_for_display": "January 1, 2012",
+                            "release_date_with_abbreviated_month_for_display": "Jan. 1, 2012",
+                            "song_art_image_thumbnail_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.300x300x1.jpg",
+                            "song_art_image_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.1000x1000x1.jpg",
+                            "stats": {
+                                "unreviewed_annotations": 0,
+                                "hot": false,
+                                "pageviews": 5373
+                            },
+                            "title": "Just Me",
+                            "title_with_featured": "Just Me",
+                            "updated_by_human_at": 1583723632,
+                            "url": "https://genius.com/Huey-mack-just-me-lyrics",
+                            "featured_artists": [],
+                            "primary_artist": {
+                                "_type": "artist",
+                                "api_path": "/artists/12853",
+                                "header_image_url": "https://images.genius.com/f7c7d891640a1b0899e3e945fd06882b.1000x667x1.jpg",
+                                "id": 12853,
+                                "image_url": "https://images.genius.com/98954fa1ac9e4695eb84e9009cbebe20.1000x1000x1.jpg",
+                                "index_character": "h",
+                                "is_meme_verified": false,
+                                "is_verified": true,
+                                "name": "Huey Mack",
+                                "slug": "Huey-mack",
+                                "url": "https://genius.com/artists/Huey-mack",
+                                "iq": 538
+                            }
+                        }
+                    },
+                    {
+                        "highlights": [
+                            {
+                                "property": "lyrics",
+                                "value": "dogshit and got more plays than your discography\nI made Swat Me Maybe and got more clout than you will",
+                                "snippet": true,
+                                "ranges": [
+                                    {
+                                        "start": 56,
+                                        "end": 60
+                                    },
+                                    {
+                                        "start": 61,
+                                        "end": 63
+                                    },
+                                    {
+                                        "start": 64,
+                                        "end": 69
+                                    }
+                                ]
+                            }
+                        ],
+                        "index": "lyric",
+                        "type": "song",
+                        "result": {
+                            "_type": "song",
+                            "annotation_count": 4,
+                            "api_path": "/songs/8495294",
+                            "artist_names": "James bandz",
+                            "full_title": "That Mf Dog Off A perc by James bandz",
+                            "header_image_thumbnail_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.300x300x1.jpg",
+                            "header_image_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.500x500x1.jpg",
+                            "id": 8495294,
+                            "instrumental": false,
+                            "lyrics_owner_id": 18385951,
+                            "lyrics_state": "complete",
+                            "lyrics_updated_at": 1688417372,
+                            "path": "/James-bandz-that-mf-dog-off-a-perc-lyrics",
+                            "pyongs_count": 1,
+                            "relationships_index_url": "https://genius.com/James-bandz-that-mf-dog-off-a-perc-sample",
+                            "release_date_components": {
+                                "year": 2022,
+                                "month": 10,
+                                "day": 17
+                            },
+                            "release_date_for_display": "October 17, 2022",
+                            "release_date_with_abbreviated_month_for_display": "Oct. 17, 2022",
+                            "song_art_image_thumbnail_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.300x300x1.jpg",
+                            "song_art_image_url": "https://images.genius.com/564cc92542a2c761cb6a0f93ad00eff9.500x500x1.jpg",
+                            "stats": {
+                                "unreviewed_annotations": 4,
+                                "hot": false
+                            },
+                            "title": "That Mf Dog Off A perc",
+                            "title_with_featured": "That Mf Dog Off A perc",
+                            "updated_by_human_at": 1688417372,
+                            "url": "https://genius.com/James-bandz-that-mf-dog-off-a-perc-lyrics",
+                            "featured_artists": [],
+                            "primary_artist": {
+                                "_type": "artist",
+                                "api_path": "/artists/2744583",
+                                "header_image_url": "https://images.genius.com/ba3fd5ecbeb87dd8f25d9286c5488ce1.1000x500x1.jpg",
+                                "id": 2744583,
+                                "image_url": "https://images.genius.com/0d86ddb3b74ac9f25946a94635448ca1.1000x1000x1.png",
+                                "index_character": "j",
+                                "is_meme_verified": false,
+                                "is_verified": false,
+                                "name": "James bandz",
+                                "slug": "James-bandz",
+                                "url": "https://genius.com/artists/James-bandz"
+                            }
+                        }
+                    },
+                    {
+                        "highlights": [
+                            {
+                                "property": "lyrics",
+                                "value": "my mama B\nYou regulate them hoes who try to swat at me\nMaybe possibly, not yet probably\nYou gon",
+                                "snippet": true,
+                                "ranges": [
+                                    {
+                                        "start": 44,
+                                        "end": 48
+                                    },
+                                    {
+                                        "start": 52,
+                                        "end": 54
+                                    },
+                                    {
+                                        "start": 55,
+                                        "end": 60
+                                    }
+                                ]
+                            }
+                        ],
+                        "index": "lyric",
+                        "type": "song",
+                        "result": {
+                            "_type": "song",
+                            "annotation_count": 0,
+                            "api_path": "/songs/4206177",
+                            "artist_names": "Ej Barretta",
+                            "full_title": "Impossible by Ej Barretta",
+                            "header_image_thumbnail_url": "https://images.genius.com/15c0ae9a5e28457a1ba071174ba05980.300x300x1.jpg",
+                            "header_image_url": "https://images.genius.com/15c0ae9a5e28457a1ba071174ba05980.1000x1000x1.jpg",
+                            "id": 4206177,
+                            "instrumental": false,
+                            "lyrics_owner_id": 155104,
+                            "lyrics_state": "complete",
+                            "lyrics_updated_at": 1546641709,
+                            "path": "/Ej-barretta-impossible-lyrics",
+                            "pyongs_count": null,
+                            "relationships_index_url": "https://genius.com/Ej-barretta-impossible-sample",
+                            "release_date_components": {
+                                "year": 2019,
+                                "month": 1,
+                                "day": 2
+                            },
+                            "release_date_for_display": "January 2, 2019",
+                            "release_date_with_abbreviated_month_for_display": "Jan. 2, 2019",
+                            "song_art_image_thumbnail_url": "https://images.genius.com/15c0ae9a5e28457a1ba071174ba05980.300x300x1.jpg",
+                            "song_art_image_url": "https://images.genius.com/15c0ae9a5e28457a1ba071174ba05980.1000x1000x1.jpg",
+                            "stats": {
+                                "unreviewed_annotations": 0,
+                                "hot": false
+                            },
+                            "title": "Impossible",
+                            "title_with_featured": "Impossible",
+                            "updated_by_human_at": 1546641709,
+                            "url": "https://genius.com/Ej-barretta-impossible-lyrics",
+                            "featured_artists": [],
+                            "primary_artist": {
+                                "_type": "artist",
+                                "api_path": "/artists/28178",
+                                "header_image_url": "https://images.genius.com/466b89b2089457f5f3724ea13bb474bb.1000x1000x1.jpg",
+                                "id": 28178,
+                                "image_url": "https://images.genius.com/15c0ae9a5e28457a1ba071174ba05980.1000x1000x1.jpg",
+                                "index_character": "e",
+                                "is_meme_verified": false,
+                                "is_verified": false,
+                                "name": "Ej Barretta",
+                                "slug": "Ej-barretta",
+                                "url": "https://genius.com/artists/Ej-barretta",
+                                "iq": 201
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "artist",
+                "hits": []
+            },
+            {
+                "type": "album",
+                "hits": []
+            },
+            {
+                "type": "video",
+                "hits": [
+                    {
+                        "highlights": [],
+                        "index": "video",
+                        "type": "video",
+                        "result": {
+                            "_type": "video",
+                            "api_path": "/videos/19999",
+                            "article_url": "https://genius.com/a/dove-cameron-breaks-down-the-meaning-of-boyfriend",
+                            "author_list_for_display": "Genius",
+                            "dek": "Learn about the song’s lyrics on the latest episode of ‘Verified.’\r\n",
+                            "description": "“I didn’t want it to be about the boy,” singer and actress Dove Cameron says of “Boyfriend,” the smash single she released earlier this year. “Because it’s not. It’s about these two women and their sexuality and the connection that they have…",
+                            "dfp_kv": [
+                                {
+                                    "name": "brightcove_video_id",
+                                    "values": [
+                                        "6303083265001"
+                                    ]
+                                },
+                                {
+                                    "name": "topic",
+                                    "values": []
+                                },
+                                {
+                                    "name": "has_transcript",
+                                    "values": [
+                                        "true"
+                                    ]
+                                },
+                                {
+                                    "name": "song_id",
+                                    "values": []
+                                },
+                                {
+                                    "name": "artist_id",
+                                    "values": []
+                                },
+                                {
+                                    "name": "primary_tag_id",
+                                    "values": []
+                                },
+                                {
+                                    "name": "video_series",
+                                    "values": []
+                                }
+                            ],
+                            "duration": 373995,
+                            "id": 19999,
+                            "poster_attributes": {
+                                "height": 720,
+                                "width": 1280
+                            },
+                            "poster_url": "https://images.genius.com/d08dc4f8080f9b0142eb7101a8b2b0b6.1000x563x1.jpg",
+                            "provider": "brightcove",
+                            "provider_id": "6303083265001",
+                            "provider_params": [
+                                {
+                                    "name": "policy_key",
+                                    "value": "BCpkADawqM1Yf2IElyF6jfI5WI9Q_UAa8Lz3mmqoN0btQzu-1LWMaRV4q6Tm7Fzh1LrovZfmf6rHqYXe_OdkLc9eTQiNrj2s_4t_gA0KfeiNKhrqNmRPrfQjTfgJRsGeyVoNA-qlxc9LBrtA"
+                                }
+                            ],
+                            "short_title": "Dove Cameron Breaks Down The Meaning of “Boyfriend”",
+                            "title": "Dove Cameron Breaks Down The Meaning Of “Boyfriend”",
+                            "type": "video",
+                            "url": "https://genius.com/videos/Dove-cameron-breaks-down-the-meaning-of-boyfriend",
+                            "video_attributes": {
+                                "width": 1280,
+                                "height": 720
+                            },
+                            "current_user_metadata": {
+                                "permissions": [],
+                                "excluded_permissions": [
+                                    "view_relevance_reason"
+                                ]
+                            },
+                            "published_at": 1649359800,
+                            "view_count": 2573745,
+                            "author": {
+                                "_type": "user",
+                                "about_me_summary": "Founded in 2009, Genius is a unique media company that’s powered by community, our in-house creative team, and the artists themselves. We serve music knowledge to over 100 million",
+                                "api_path": "/users/1548008",
+                                "avatar": {
+                                    "tiny": {
+                                        "url": "https://images.genius.com/avatars/tiny/91cf87ea385a28f59d9dd0ba6ff3608c",
+                                        "bounding_box": {
+                                            "width": 16,
+                                            "height": 16
+                                        }
+                                    },
+                                    "thumb": {
+                                        "url": "https://images.genius.com/avatars/thumb/91cf87ea385a28f59d9dd0ba6ff3608c",
+                                        "bounding_box": {
+                                            "width": 32,
+                                            "height": 32
+                                        }
+                                    },
+                                    "small": {
+                                        "url": "https://images.genius.com/avatars/small/91cf87ea385a28f59d9dd0ba6ff3608c",
+                                        "bounding_box": {
+                                            "width": 100,
+                                            "height": 100
+                                        }
+                                    },
+                                    "medium": {
+                                        "url": "https://images.genius.com/avatars/medium/91cf87ea385a28f59d9dd0ba6ff3608c",
+                                        "bounding_box": {
+                                            "width": 300,
+                                            "height": 400
+                                        }
+                                    }
+                                },
+                                "header_image_url": "https://images.genius.com/822a5f872a1fcfe377695dc0046c6bc6.900x176x1.jpg",
+                                "human_readable_role_for_display": "Verified Artist",
+                                "id": 1548008,
+                                "iq": 78555,
+                                "is_meme_verified": true,
+                                "is_verified": true,
+                                "login": "Genius",
+                                "name": "Genius",
+                                "role_for_display": "verified_artist",
+                                "url": "https://genius.com/Genius",
+                                "current_user_metadata": {
+                                    "permissions": [],
+                                    "excluded_permissions": [
+                                        "follow"
+                                    ],
+                                    "interactions": {
+                                        "following": false
+                                    }
+                                }
+                            },
+                            "sponsorship": {
+                                "_type": "article",
+                                "api_path": "/articles/13646",
+                                "sponsor_image": "https://images.genius.com/4addb61db6f98baa3e4628d33b7195e4.1143x151x1.png",
+                                "sponsor_image_style": "normal",
+                                "sponsor_link": "",
+                                "sponsor_phrase": "PRESENTED BY",
+                                "sponsored": true
+                            }
+                        }
+                    },
+                    {
+                        "highlights": [],
+                        "index": "video",
+                        "type": "video",
+                        "result": {
+                            "_type": "video",
+                            "api_path": "/videos/19604",
+                            "article_url": "https://genius.com/a/cl-breaks-down-the-meaning-of-hwa",
+                            "author_list_for_display": "Ndeye Thioubou",
+                            "dek": "Learn about the song’s lyrics on the latest episode of ‘Verified.’",
+                            "description": "CL’s “+HWA+” is her latest hit, and it’s already racked up 4 million YouTube views to date. It is produced by Dave Hamelin and Kurtis McKenzie and appears on +HWA+. On the track, CL asserts her status in the game and raps in English and Korean about…",
+                            "dfp_kv": [
+                                {
+                                    "name": "brightcove_video_id",
+                                    "values": [
+                                        "6220425775001"
+                                    ]
+                                },
+                                {
+                                    "name": "topic",
+                                    "values": []
+                                },
+                                {
+                                    "name": "has_transcript",
+                                    "values": [
+                                        "true"
+                                    ]
+                                },
+                                {
+                                    "name": "song_id",
+                                    "values": [
+                                        "6080416"
+                                    ]
+                                },
+                                {
+                                    "name": "artist_id",
+                                    "values": [
+                                        "20581",
+                                        "33076",
+                                        "193020",
+                                        "958155",
+                                        "1248150"
+                                    ]
+                                },
+                                {
+                                    "name": "primary_tag_id",
+                                    "values": [
+                                        "1434"
+                                    ]
+                                },
+                                {
+                                    "name": "video_series",
+                                    "values": [
+                                        "verified"
+                                    ]
+                                }
+                            ],
+                            "duration": 482389,
+                            "id": 19604,
+                            "poster_attributes": {
+                                "height": 720,
+                                "width": 1280
+                            },
+                            "poster_url": "https://images.genius.com/25b03a6462b160cb08799eba07472752.1000x563x1.jpg",
+                            "provider": "brightcove",
+                            "provider_id": "6220425775001",
+                            "provider_params": [
+                                {
+                                    "name": "policy_key",
+                                    "value": "BCpkADawqM1Yf2IElyF6jfI5WI9Q_UAa8Lz3mmqoN0btQzu-1LWMaRV4q6Tm7Fzh1LrovZfmf6rHqYXe_OdkLc9eTQiNrj2s_4t_gA0KfeiNKhrqNmRPrfQjTfgJRsGeyVoNA-qlxc9LBrtA"
+                                }
+                            ],
+                            "short_title": "CL Breaks Down The Meaning Of “+HWA+” ",
+                            "title": "CL Breaks Down The Meaning Of “+Hwa+”",
+                            "type": "video",
+                            "url": "https://genius.com/videos/Cl-breaks-down-the-meaning-of-hwa",
+                            "video_attributes": {
+                                "width": 1280,
+                                "height": 720
+                            },
+                            "current_user_metadata": {
+                                "permissions": [],
+                                "excluded_permissions": [
+                                    "view_relevance_reason"
+                                ]
+                            },
+                            "published_at": 1609956060,
+                            "view_count": 222814,
+                            "author": {
+                                "_type": "user",
+                                "about_me_summary": "",
+                                "api_path": "/users/5133157",
+                                "avatar": {
+                                    "tiny": {
+                                        "url": "https://images.genius.com/avatars/tiny/e110ac87beaf0b860a495f8b1d015af2",
+                                        "bounding_box": {
+                                            "width": 16,
+                                            "height": 16
+                                        }
+                                    },
+                                    "thumb": {
+                                        "url": "https://images.genius.com/avatars/thumb/e110ac87beaf0b860a495f8b1d015af2",
+                                        "bounding_box": {
+                                            "width": 32,
+                                            "height": 32
+                                        }
+                                    },
+                                    "small": {
+                                        "url": "https://images.genius.com/avatars/small/e110ac87beaf0b860a495f8b1d015af2",
+                                        "bounding_box": {
+                                            "width": 100,
+                                            "height": 100
+                                        }
+                                    },
+                                    "medium": {
+                                        "url": "https://images.genius.com/avatars/medium/e110ac87beaf0b860a495f8b1d015af2",
+                                        "bounding_box": {
+                                            "width": 300,
+                                            "height": 400
+                                        }
+                                    }
+                                },
+                                "header_image_url": "https://images.genius.com/85527dc3750b63bbf4df5f981bb77230.820x492x1.jpg",
+                                "human_readable_role_for_display": "Contributor",
+                                "id": 5133157,
+                                "iq": 1151,
+                                "is_meme_verified": false,
+                                "is_verified": false,
+                                "login": "ndeyelasoul",
+                                "name": "Ndeye Thioubou",
+                                "role_for_display": "contributor",
+                                "url": "https://genius.com/ndeyelasoul",
+                                "current_user_metadata": {
+                                    "permissions": [],
+                                    "excluded_permissions": [
+                                        "follow"
+                                    ],
+                                    "interactions": {
+                                        "following": false
+                                    }
+                                }
+                            },
+                            "sponsorship": {
+                                "_type": "article",
+                                "api_path": "/articles/12330",
+                                "sponsor_image": null,
+                                "sponsor_image_style": "normal",
+                                "sponsor_link": "",
+                                "sponsor_phrase": "",
+                                "sponsored": false
+                            }
+                        }
+                    },
+                    {
+                        "highlights": [],
+                        "index": "video",
+                        "type": "video",
+                        "result": {
+                            "_type": "video",
+                            "api_path": "/videos/18894",
+                            "article_url": "https://genius.com/a/for-the-record-tory-lanez-talks-chixtape-5-samples-confirms-theres-no-beef-with-meek-mill",
+                            "author_list_for_display": "Rahel Gebreyes",
+                            "dek": "The singer said he had to clear between 30 and 40 samples for the album. ",
+                            "description": "After much anticipation, Tory Lanez dropped the fifth installment of his beloved mixtape series, Chixtape 5. The album is inspired by iconic R&B hits of the early 2000s and is stacked with features from the likes of Ashanti, The-Dream, Lil Wayne…",
+                            "dfp_kv": [
+                                {
+                                    "name": "brightcove_video_id",
+                                    "values": [
+                                        "6103946159001"
+                                    ]
+                                },
+                                {
+                                    "name": "topic",
+                                    "values": [
+                                        "weed"
+                                    ]
+                                },
+                                {
+                                    "name": "has_transcript",
+                                    "values": [
+                                        "true"
+                                    ]
+                                },
+                                {
+                                    "name": "song_id",
+                                    "values": []
+                                },
+                                {
+                                    "name": "artist_id",
+                                    "values": [
+                                        "1632",
+                                        "2008917"
+                                    ]
+                                },
+                                {
+                                    "name": "primary_tag_id",
+                                    "values": [
+                                        "352",
+                                        "1434"
+                                    ]
+                                },
+                                {
+                                    "name": "video_series",
+                                    "values": []
+                                }
+                            ],
+                            "duration": 2607766,
+                            "id": 18894,
+                            "poster_attributes": {
+                                "height": 720,
+                                "width": 1280
+                            },
+                            "poster_url": "https://images.genius.com/9400e4bffc891c40185d7d68760cc8b1.1000x563x1.jpg",
+                            "provider": "brightcove",
+                            "provider_id": "6103946159001",
+                            "provider_params": [
+                                {
+                                    "name": "policy_key",
+                                    "value": "BCpkADawqM1Yf2IElyF6jfI5WI9Q_UAa8Lz3mmqoN0btQzu-1LWMaRV4q6Tm7Fzh1LrovZfmf6rHqYXe_OdkLc9eTQiNrj2s_4t_gA0KfeiNKhrqNmRPrfQjTfgJRsGeyVoNA-qlxc9LBrtA"
+                                }
+                            ],
+                            "short_title": "Tory Lanez Says There’s No Beef With Meek Mill & Raps Lil Wayne Verse",
+                            "title": "For The Record: Tory Lanez Talks ‘Chixtape 5’ Samples & Confirms There’s No Beef With Meek Mill",
+                            "type": "video",
+                            "url": "https://genius.com/videos/Tory-lanez-says-theres-no-beef-with-meek-mill-raps-lil-wayne-verse",
+                            "video_attributes": {
+                                "width": 1280,
+                                "height": 720
+                            },
+                            "current_user_metadata": {
+                                "permissions": [],
+                                "excluded_permissions": [
+                                    "view_relevance_reason"
+                                ]
+                            },
+                            "published_at": 1573846500,
+                            "view_count": 272449,
+                            "author": {
+                                "_type": "user",
+                                "about_me_summary": "",
+                                "api_path": "/users/6841335",
+                                "avatar": {
+                                    "tiny": {
+                                        "url": "https://images.genius.com/avatars/tiny/8b416de4d8d55a4b84ea5ba45a06429f",
+                                        "bounding_box": {
+                                            "width": 16,
+                                            "height": 16
+                                        }
+                                    },
+                                    "thumb": {
+                                        "url": "https://images.genius.com/avatars/thumb/8b416de4d8d55a4b84ea5ba45a06429f",
+                                        "bounding_box": {
+                                            "width": 32,
+                                            "height": 32
+                                        }
+                                    },
+                                    "small": {
+                                        "url": "https://images.genius.com/avatars/small/8b416de4d8d55a4b84ea5ba45a06429f",
+                                        "bounding_box": {
+                                            "width": 100,
+                                            "height": 100
+                                        }
+                                    },
+                                    "medium": {
+                                        "url": "https://images.genius.com/avatars/medium/8b416de4d8d55a4b84ea5ba45a06429f",
+                                        "bounding_box": {
+                                            "width": 300,
+                                            "height": 400
+                                        }
+                                    }
+                                },
+                                "header_image_url": "https://images.genius.com/c08af3740e352880a002660b141f5d4b.940x160x1.jpg",
+                                "human_readable_role_for_display": "Contributor",
+                                "id": 6841335,
+                                "iq": 349,
+                                "is_meme_verified": false,
+                                "is_verified": false,
+                                "login": "rgebreyes",
+                                "name": "Rahel Gebreyes",
+                                "role_for_display": "contributor",
+                                "url": "https://genius.com/rgebreyes",
+                                "current_user_metadata": {
+                                    "permissions": [],
+                                    "excluded_permissions": [
+                                        "follow"
+                                    ],
+                                    "interactions": {
+                                        "following": false
+                                    }
+                                }
+                            },
+                            "sponsorship": {
+                                "_type": "article",
+                                "api_path": "/articles/9686",
+                                "sponsor_image": null,
+                                "sponsor_image_style": "normal",
+                                "sponsor_link": "",
+                                "sponsor_phrase": "",
+                                "sponsored": false
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "article",
+                "hits": []
+            },
+            {
+                "type": "user",
+                "hits": []
+            }
+        ]
+    }
+}
