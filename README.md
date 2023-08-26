@@ -1,5 +1,7 @@
 # audio-preview-fetcher
-Gets music previews from apple music through genius.com as a developer friendly API
+Gets music previews from apple music through genius.com as a developer friendly python API. Can be used to add music previews to your own applications, examples include music guessing games and lyrical encyclopedias.
+
+## Example
 
 **example.py**
 ```py
@@ -17,7 +19,7 @@ for response in query.responses:
         print("STREAM_URL: ", utils.get_song_url_from_id(response.id))
 print("-"*50)
 ```
-**ouptuts**
+**ouptut**
 ```
 --------------------------------------------------
 SONG_ID:     61305
