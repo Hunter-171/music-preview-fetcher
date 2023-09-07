@@ -12,7 +12,7 @@ from genius.api import Genius
 import genius.utils as utils
 
 genius = Genius()
-query = genius.query("Swat me mabye")
+query = genius.perform_query("Swat me mabye")
 for response in query.responses:
     if(response.is_song):
         print("-"*50)
